@@ -1,7 +1,7 @@
 # PowerShell SSH Command Runner
 A PowerShell GUI application for executing commands across multiple SSH servers with password authentication.
 
-!(ssh looper)[ssh-looper.gif]
+![ssh looper](ssh-looper.gif)
 
 ## Features
 - Windows GUI interface for command execution
