@@ -12,10 +12,13 @@ A PowerShell GUI application for executing commands across multiple SSH servers 
 - Real-time execution feedback
 - Command escaping for complex shell commands
 - Built-in warning system for potentially dangerous commands
+- Help File with sample command formats
+- Simple Log viewing/deleting
+- Lots of Debug stuff (Currently)
 
 ## Prerequisites
 - Windows PowerShell 5.1 or higher
-- PuTTY (plink.exe must be in PATH)
+- PuTTY (plink.exe must be in Path/Modules Folder)
 - Server list in CSV format
 - .NET Framework 4.7.2 or higher (for WPF support)
 
