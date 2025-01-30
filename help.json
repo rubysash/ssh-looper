@@ -1,0 +1,39 @@
+{
+    "commandExamples": [
+      {
+        "title": "Configure DoS Protection Settings",
+        "description": "Sets up DoS protection configuration with rate limiting and logging",
+        "command": "fwaccel dos config set --enable-rate-limit;\nfwaccel dos config set --enable-pbox;\nfwaccel dos config set --pbox-rate 50;\nfwaccel dos config set --enable-drop-frags;\nfwaccel dos config set --enable-log-pbox;\nfwaccel dos config set --enable-log-drops;"
+      },
+      {
+        "title": "Run Command Through a Shell",
+        "description": "Display the current firewall configuration using CLISH",
+        "command": "clish -c 'show configuration'"
+      },
+      {
+        "title": "DO NOT USE DOUBLE QUOTE OR PARENS",
+        "description": "Figure out how to type your commands without (parens) or double \"quote\"",
+        "command": "clish -c 'show configuration' | egrep 'host|net'"
+      },
+      {
+        "title": "System and Network Information (Using &&)",
+        "description": "Display system information and network interface configuration using AND operator",
+        "command": "uname -a && ifconfig -a"
+      },
+      {
+        "title": "System and Network Information (Using ;)",
+        "description": "Display system information and network interface configuration using command separator",
+        "command": "uname -a; ifconfig -a"
+      },
+      {
+        "title": "Check System Resources",
+        "description": "Display disk usage and memory information",
+        "command": "df -h; free -m"
+      },
+      {
+        "title": "Process Status",
+        "description": "List all running processes and their resource usage",
+        "command": "ps aux | grep -v grep"
+      }
+    ]
+  }

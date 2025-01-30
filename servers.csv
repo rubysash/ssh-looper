@@ -1,0 +1,4 @@
+Username,Hostname,Port,Role,Description
+admin,192.168.1.15,22,CP LAB,Check Point Firewall 1
+admin,192.168.1.17,22,CP LAB,Check Point Firewall 2
+james,192.168.1.13,22,Zeus SIEM,Syslog and Splunk
